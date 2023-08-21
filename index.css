@@ -1,0 +1,77 @@
+.container {
+  display: grid;
+  height: 98vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 2fr 1fr 0.5fr;
+  grid-template-areas:
+    "nav nav nav nav"
+    "sidebar main main main"
+    "sidebar content content content"
+    "footer footer footer footer";
+}
+nav {
+  grid-area: nav;
+}
+main {
+  
+  grid-area: main;
+}
+.sidebar {
+  
+  grid-area: sidebar;
+  padding-top: 20%;
+  margin-left: 30px;
+}
+.content {
+  grid-area: content;
+}
+footer {
+  
+  grid-area: footer;
+}
+nav{
+   padding-top: 30px;
+   padding-left: 30%;
+    align-content: space-around;
+    background-color: aliceblue;
+    
+}
+nav a {
+    color: chocolate;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    
+    
+}
+a{
+  margin-right: 50px;
+}
+.sidebar a {
+    margin-top: 30px;
+    display: flex;
+    color:aliceblue;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 150%;
+}
+main h1{
+    color: orangered;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 300%;
+}
+.content p{
+    color: aliceblue;
+    background-color: darkred;
+    font-size: 150%;
+}
+footer p {
+   margin-left: 50%;
+}
+.container{
+    background-image: url("/photographer.avif" );
+}
+.sidebar a {
+    
+    
+   
+}
